@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    background-image: url('./img/teal-smbg.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+    padding: 6rem 0;
+}
+.card{
+    width: 25%;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+
+}
+.card .gr-bg img{
+    height: 120px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.card-img{
+    margin-bottom: 70px;
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+
+}
+.card-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px; 
+    border: 3.5px solid white;   
+}
+
+/****** CARD DETAILS ******/
+.card-details .name{
+    text-align: center;
+    padding-bottom: 1.2rem;
+    color: #333;
+}
+.name span, .name p{
+    font-weight: 400;
+    color: #777777;
+    font-size: 1.2rem;
+}
+.name p{
+    font-size:1rem;
+    padding-top: .6rem;
+}
+
+.card-details .stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 0 2rem;
+    color: #333;
+}
+.stats>div{
+    text-align: center;
+}
+.stats h2{
+    font-size: 1.2rem;
+}
+.stats p{
+    font-size: 12px;
+    padding: .2rem 0;
+    font-family: monospace;
+}
